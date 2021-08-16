@@ -1,10 +1,13 @@
 import './App.css';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import CounterGroup from './components/CounterGroup';
+import CounterSizeGenerator from './components/CounterSizeGenerator';
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
+      <CounterSizeGenerator></CounterSizeGenerator>
+      <CounterGroup></CounterGroup>
     </div>
   );
 }
