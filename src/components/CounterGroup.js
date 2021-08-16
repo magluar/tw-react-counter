@@ -1,4 +1,5 @@
 import Counter from "./Counter"
+import "../styles/Counter.css"
 
 function CounterGroup(props) {
 

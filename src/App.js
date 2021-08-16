@@ -1,8 +1,9 @@
 import MultipleCounter from "./components/MultipleCounter";
+import "../src/App.css"
 
 function App() {
   return (
-    <div className="App" align = "center">
+    <div className="App">
       <MultipleCounter></MultipleCounter>
     </div>
   );

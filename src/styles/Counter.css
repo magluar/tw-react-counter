@@ -1,0 +1,26 @@
+.counter {
+    margin: 10px;
+}
+
+#button1 {
+    background-color: lightgreen;
+}
+
+#button1:hover {
+    background:green;
+}
+
+#button2 {
+    background-color: pink;
+}
+
+#button2:hover {
+    background-color: red;
+}
+
+button {
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+}
