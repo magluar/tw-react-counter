@@ -1,13 +1,9 @@
-import './App.css';
-// import Counter from './components/Counter';
-import CounterGroup from './components/CounterGroup';
-import CounterSizeGenerator from './components/CounterSizeGenerator';
+import MultipleCounter from "./components/MultipleCounter";
 
 function App() {
   return (
-    <div className="App">
-      <CounterSizeGenerator></CounterSizeGenerator>
-      <CounterGroup></CounterGroup>
+    <div className="App" align = "center">
+      <MultipleCounter></MultipleCounter>
     </div>
   );
 }
