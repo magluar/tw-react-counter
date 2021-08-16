@@ -2,12 +2,11 @@ import Counter from "./Counter"
 
 function CounterGroup() {
 
-    function generateCounterList() {
+    function generateArray() {
         return new Array(5).fill(Date.now());
     }
 
-    const counterList = generateCounterList();
-
+    const counterList = generateArray();
     return (
         <div>
             {counterList.map((item, index) => (

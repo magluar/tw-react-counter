@@ -2,7 +2,7 @@ function CounterSizeGenerator() {
     return(
         <div>
             <span>Size:</span>
-            <input></input>
+            <input type="number" min="0"></input>
         </div>
     )
 }
